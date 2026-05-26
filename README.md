@@ -31,35 +31,25 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📂 Projects
 
-<div align="center">
+| Project | Description | Stack |
+|---------|-------------|-------|
+| 🧠 **xcf-personal-knowledge-base** | Obsidian 个人知识库，AI 工具教程、LangChain、RAG、Agent 学习笔记 | Markdown · Obsidian · Excalidraw |
+| 🔧 **git-demo** | Git 操作实践 | HTML · Git |
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=xiaochunfengbuxiao&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaochunfengbuxiao&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=xiaochunfengbuxiao&theme=tokyonight&no-frame=true&row=1&column=6" />
-
-</div>
+> 🔒 *知识库为私有仓库，仅展示项目概览*
 
 ---
 
-### 📌 Featured Projects
+### 🎯 Currently Learning
 
-<div align="center">
-
-<a href="https://github.com/xiaochunfengbuxiao/xcf-personal-knowledge-base">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xiaochunfengbuxiao&repo=xcf-personal-knowledge-base&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/xiaochunfengbuxiao/git-demo">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=xiaochunfengbuxiao&repo=git-demo&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
+```text
+LangChain 🧬    ████████████░░░░  60%
+RAG 📚          ████████░░░░░░░░  40%
+Agent 🤖        ██████░░░░░░░░░░  30%
+MCP Protocol 🔌 ████░░░░░░░░░░░░  20%
+```
 
 ---
 
