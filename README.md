@@ -1,79 +1,97 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+%E7%AC%91%E6%98%A5%E9%A3%8E;CS+Graduate+Student;AI+Agent+%26+Knowledge+Base+Builder;Sign+Language+%26+AI+Agent+Builder" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=760&lines=Hi%2C+I'm+%E7%AC%91%E6%98%A5%E9%A3%8E;CS+Graduate+Student;AI+Agent+%26+Knowledge+Base+Builder;Sign+Language+Accessibility+Prototype" alt="Typing SVG" />
+
+**AI Agent / Knowledge Base / Sign Language Accessibility / Research Automation**
 
 </div>
 
 ---
 
-# 笑春风
+## About Me
 
-### About Me
+I am a computer science graduate student building practical AI workflows around local knowledge bases, research automation, and human-centered prototypes.
 
-- 计算机研究生，专注大模型应用与 AI Agent 工具链
-- 最近主线：**个人知识库工程化 · 双向手语无障碍沟通系统 · Agent 自动化工作流**
-- 正在补强：深度学习推导、连续手语识别、GUI 开发、Skills / MCP / RAG 工具链
-- 副线项目：行业研究自动化（数据采集 -> 10 章报告 -> HTML/PDF -> 发布）
-- 信条：*"工具不重要，思路才重要"*
-- 欢迎交流 AI Agent、Obsidian 知识库、手语识别原型、研报自动化
+- Current focus: **personal knowledge base engineering**, **bidirectional sign-language accessibility system**, and **AI Agent workflows**
+- Recent work: PySide6 desktop GUI, sign-video retrieval and recognition workflow, graduate meeting slides, GitHub knowledge-base synchronization
+- Long-term direction: make AI tools more reliable for learning, research, project delivery, and assistive interaction
+- Open to talking about AI Agents, Obsidian workflows, RAG systems, sign-language recognition prototypes, and automated research reports
 
 ---
 
-### Tech Stack
+## Tech Stack
 
-Python · PyTorch · PySide6 · OpenCV · MediaPipe · FastAPI · LangChain · Chroma · Playwright · Obsidian · Git
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
 
 ---
 
-### Projects
+## Featured Projects
 
-| Project | Description | Stack |
+| Project | What I Built | Stack |
 | --- | --- | --- |
-| **xcf-personal-knowledge-base** | Obsidian 个人知识库工程化：学习笔记、市场调研、项目代码、研究生组会材料统一归档；为 Claude Code / Codex 编写多层 Agent 规范，并完成根目录描述与 GitHub 同步治理 | Markdown · Obsidian · Git · Claude Code |
-| **sign-language-accessibility-system** | 双向实时手语无障碍沟通原型：中文/语音 -> 手语视频与骨架展示，手语视频 -> 中文识别与 TTS；近期重点完成 PySide6 桌面 GUI、服务层适配、异步 Worker、组会汇报材料 | Python · PySide6 · OpenCV · MediaPipe · PyTorch |
-| **market-research-automation** | 行业研究流水线：多源数据采集（Yahoo Finance + AkShare）-> 估值/财报/资金流/技术指标/风险定价 -> 10 章报告 -> HTML/PDF -> 微信公众号发布 | Python · yfinance · AkShare · Playwright |
-| **LangChain-RAG-FastAPI-Service** | 基于 LangChain + FastAPI 的 RAG 知识库 API 服务 | Python · LangChain · FastAPI · Chroma |
-| **Agent-Rag-project** | AI Agent + RAG 综合项目，多 Agent 协作 + 向量检索 | Python · LangChain · Agent |
+| **xcf-personal-knowledge-base** | Engineered an Obsidian-based personal knowledge base with learning notes, market research, project code, graduate meeting materials, agent rules, sync policies, and GitHub publishing workflow. | Markdown · Obsidian · Git · Claude Code · Codex |
+| **sign-language-accessibility-system** | Built a bidirectional accessibility prototype: Chinese text / speech to real sign-language video and skeleton display, plus sign-language video to Chinese text and TTS. Recent work focuses on the PySide6 desktop GUI, local service adapter, async workers, and meeting-ready presentation materials. | Python · PySide6 · OpenCV · MediaPipe · PyTorch |
+| **market-research-automation** | Built a research pipeline that collects multi-source market data, generates valuation / financial / capital-flow / technical-risk outputs, drafts 10-chapter reports, and prepares HTML/PDF publishing artifacts. | Python · yfinance · AkShare · Playwright |
+| **LangChain-RAG-FastAPI-Service** | Built a FastAPI-based RAG service using LangChain and vector retrieval for knowledge-base APIs. | Python · LangChain · FastAPI · Chroma |
+| **Agent-Rag-project** | Explored multi-agent collaboration and RAG workflows with tool orchestration and vector retrieval. | Python · LangChain · Agent |
 
-> 知识库为私有仓库，仅展示项目概览。
+> My main knowledge base is private; this profile only shows project-level summaries.
 
 ---
 
-### Currently Learning
+## Recently Shipped
+
+### 2026.07 - Sign-Language Accessibility GUI
+
+- Built a **PySide6 desktop application** with Chinese / voice input on the left, real sign-language video plus synchronized skeleton display in the center, and sign-video upload / recording with Chinese recognition on the right.
+- Wrapped the existing Web-side `SignVideoApp` into a desktop service layer, so the GUI can call local capabilities without starting an HTTP service.
+- Split the GUI into input, candidate, retrieval explanation, stage display, and reverse-recognition panels.
+- Used workers for retrieval, ASR, recognition, and video transcoding to keep the interface responsive.
+- Prepared final graduate meeting slide decks:
+  - `260701组会-手语项目-GUI界面工作版.pptx`
+  - `260708组会-二分类与神经网络训练推导.pptx`
+
+### 2026.07 - Knowledge Base Sync and Governance
+
+- Reorganized the root documentation for `01-学习`, `02-市场调研`, `04-项目`, and `07-研究生`.
+- Cleaned temporary PPT generation workspaces and moved final meeting decks into `07-研究生/组会/`.
+- Fully synchronized the personal knowledge base to GitHub while excluding datasets, model weights, virtual environments, `node_modules`, caches, and 100MB+ files.
+- Clarified that `03-GitHub/xiaochunfengbuxiao` is an independent GitHub Profile repository, not a normal folder tracked inside the main knowledge-base repo.
+
+### 2026.06-07 - AI Agent and Research Automation
+
+- Used Claude Code / Codex to manage source ingestion, note generation, diagram archiving, README/index synchronization, and presentation artifact migration.
+- Built a market research workflow for multi-source data collection, industry comparison, 10-chapter reports, ABCDE ratings, and HTML/PDF publishing.
+- Accumulated reusable skills for PPT generation, industry reports, document conversion, visual articles, image generation, frontend design, and knowledge-base retrieval.
+
+---
+
+## Learning Map
 
 ```text
-Claude Code Skills    95%
-LangChain             90%
-RAG                   90%
-AI Agent              88%
-Frontend Design       72%
-Deep Learning         55%
-Financial Analysis    50%
+AI Agent workflows       ██████████████████░  90%
+Knowledge base systems   ██████████████████░  90%
+RAG / LangChain          █████████████████░░  85%
+Sign-language prototype  ████████████████░░░  80%
+Frontend / GUI design    ██████████████░░░░░  70%
+Financial research       ████████████░░░░░░░  60%
 ```
 
 ---
 
-### Recently Shipped
+<div align="center">
 
-#### 2026.07 - 双向手语无障碍沟通系统
+![Profile Views](https://komarev.com/ghpvc/?username=xiaochunfengbuxiao&color=2563EB&style=flat-square)
 
-- 做了一个可演示的 **PySide6 桌面端 GUI**：左侧中文/语音输入，中间真人手语视频与骨架同步展示，右侧上传/录制手语视频并识别回中文。
-- 把 Web 端 `SignVideoApp` 封装成桌面服务层，GUI 直接调用本地能力，不依赖 HTTP 服务。
-- 拆分了输入、候选、检索解释、舞台展示、反向识别等组件，并用 Worker 处理检索、ASR、识别、转码等后台任务。
-- 梳理了系统边界：我的主要贡献集中在 `desktop/` 桌面端工程；`sign/`、模型与数据集作为上游能力接入。
-- 为两次组会整理最终材料：
-  - `260701组会-手语项目-GUI界面工作版.pptx`
-  - `260708组会-二分类与神经网络训练推导.pptx`
-
-#### 2026.07 - 个人知识库同步与治理
-
-- 重整个人知识库根目录说明，把 `01-学习`、`02-市场调研`、`04-项目`、`07-研究生` 的职责边界重新写清楚。
-- 清理 PPT 生成过程中的临时目录，把最终组会 PPT 迁移到 `07-研究生/组会/`。
-- 全量同步个人知识库到 GitHub，同时排除数据集、模型权重、虚拟环境、`node_modules`、缓存和 100MB+ 大文件。
-- 更新 `03-GitHub/` 目录规范，明确 GitHub Profile 子仓库独立维护，不混入主知识库 Git 历史。
-
-#### 2026.06-07 - AI Agent / 研报自动化
-
-- 持续使用 Claude Code / Codex 管理知识库工作流：素材整理、笔记生成、图表归档、README/索引同步、PPT 产物迁移。
-- 搭建市场调研流水线：多源数据采集、行业横向对比、10 章研报、ABCDE 评级、HTML/PDF 输出和发布准备。
-- 积累并使用多类 Skills：PPT 生成、行业报告、文档转换、网页文章、图像生成、前端设计、知识库检索等。
+</div>
