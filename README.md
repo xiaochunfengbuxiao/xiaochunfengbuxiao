@@ -46,7 +46,6 @@
 | 🧬 **Agent-Rag-project** | AI Agent + RAG 综合项目，多 Agent 协作 + 向量检索 | Python · LangChain · Agent |
 | 🐣 **hatch-succubus** | Codex 桌面宠物 — Q 版角色，8×9 精灵图集 + 9 组动画状态 + pet.json | Codex CLI · Higgsfield · Image Gen |
 | 🎨 **space-exploration-museum** | 太空探索博物馆 — 交互式前端设计项目 | HTML · CSS · JavaScript |
-| 🎬 **zhangxuefeng-animation** | 张雪峰风格动画视频项目 | HTML · CSS · Animation |
 
 > 🔒 *知识库为私有仓库，仅展示项目概览*
 
