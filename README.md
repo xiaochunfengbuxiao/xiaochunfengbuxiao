@@ -1,16 +1,12 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+%E7%AC%91%E6%98%A5%E9%A3%8E;CS+Graduate+Student;AI+Agent+%26+Knowledge+Base+Builder;30%2B+Claude+Code+Skills+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
-
-</div>
-
 ---
 
 ### 👨‍💻 About Me
 
 - 🎓 计算机研究生，专注大模型应用与 AI Agent 工具链
 - 🔭 最近主线：**个人知识库工程化 · 双向手语无障碍沟通系统 · Agent 自动化工作流**
-- 🌱 正在补强：深度学习推导、连续手语识别、GUI 工程、Skills / MCP / RAG 工具链
+- 🌱 正在补强：深度学习推导、连续手语识别、GUI 开发、Skills / MCP / RAG 工具链
 - 📊 副线项目：行业研究自动化（数据采集 → 10 章报告 → HTML/PDF → 发布）
 - 💡 信条：*"工具不重要，思路才重要"*
 - 📫 欢迎交流 AI Agent、Obsidian 知识库、手语识别原型、研报自动化
@@ -21,31 +17,17 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
 ---
 
 ### 📂 Projects
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🧠 **xcf-personal-knowledge-base** | Obsidian 个人知识库工程化：学习笔记、市场调研、项目代码、研究生组会材料统一归档；为 Claude Code / Codex 编写多层 Agent 规范，并完成根目录描述与 GitHub 同步治理 | Markdown · Obsidian · Git · Claude Code |
-| 🧏 **sign-language-accessibility-system** | 双向实时手语无障碍沟通原型：中文/语音 → 手语视频与骨架展示，手语视频 → 中文识别与 TTS；近期重点完成 PySide6 桌面 GUI、服务层适配、异步 Worker、组会汇报材料 | Python · PySide6 · OpenCV · MediaPipe · PyTorch |
-| 📊 **market-research-automation** | 行业研究流水线：多源数据采集（Yahoo Finance + AkShare）→ 估值/财报/资金流/技术指标/风险定价 → 10 章报告 → HTML/PDF → 微信公众号发布 | Python · yfinance · AkShare · Playwright |
-| 🤖 **LangChain-RAG-FastAPI-Service** | 基于 LangChain + FastAPI 的 RAG 知识库 API 服务 | Python · LangChain · FastAPI · Chroma |
-| 🧬 **Agent-Rag-project** | AI Agent + RAG 综合项目，多 Agent 协作 + 向量检索 | Python · LangChain · Agent |
-| 🐣 **hatch-succubus** | Codex 桌面宠物 — Q 版角色，8×9 精灵图集 + 9 组动画状态 + pet.json | Codex CLI · Higgsfield · Image Gen |
+| Project                                        | Description                                                                                                                                                     | Stack                                               |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| 🧠**xcf-personal-knowledge-base**        | Obsidian 个人知识库工程化：学习笔记、市场调研、项目代码、研究生组会材料统一归档；为 Claude Code / Codex 编写多层 Agent 规范，并完成根目录描述与 GitHub 同步治理 | Markdown · Obsidian · Git · Claude Code          |
+| 🧏**sign-language-accessibility-system** | 双向实时手语无障碍沟通原型：中文/语音 → 手语视频与骨架展示，手语视频 → 中文识别与 TTS；近期重点完成 PySide6 桌面 GUI、服务层适配、异步 Worker、组会汇报材料   | Python · PySide6 · OpenCV · MediaPipe · PyTorch |
+| 📊**market-research-automation**         | 行业研究流水线：多源数据采集（Yahoo Finance + AkShare）→ 估值/财报/资金流/技术指标/风险定价 → 10 章报告 → HTML/PDF → 微信公众号发布                         | Python · yfinance · AkShare · Playwright         |
+| 🤖**LangChain-RAG-FastAPI-Service**      | 基于 LangChain + FastAPI 的 RAG 知识库 API 服务                                                                                                                 | Python · LangChain · FastAPI · Chroma            |
+| 🧬**Agent-Rag-project**                  | AI Agent + RAG 综合项目，多 Agent 协作 + 向量检索                                                                                                               | Python · LangChain · Agent                        |
 
 > 🔒 *知识库为私有仓库，仅展示项目概览*
 
@@ -93,9 +75,3 @@ Financial Analysis 📈   ██████████░░░░░░░░
 ---
 
 <div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=xiaochunfengbuxiao&color=3B82F6&style=flat-square)
-
-*"The best way to predict the future is to invent it." — Alan Kay*
-
-</div>
