@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&size=32&duration=3200&pause=1100&color=B8860B&center=true&vCenter=true&width=760&height=64&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E7%AC%91%E6%98%A5%E9%A3%8E;AI+Agent+%E5%B7%A5%E5%85%B7%E9%93%BE%E5%AE%9E%E8%B7%B5%E8%80%85;%E7%9F%A5%E8%AF%86%E5%BA%93%E5%B7%A5%E7%A8%8B%E5%8C%96;%E5%8F%8C%E5%90%91%E6%89%8B%E8%AF%AD%E6%97%A0%E9%9A%9C%E7%A2%8D%E5%8E%9F%E5%9E%8B" alt="动态标题" />
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&size=32&duration=3200&pause=1100&color=B8860B&center=true&vCenter=true&width=760&height=64&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E7%AC%91%E6%98%A5%E9%A3%8E;%E4%B8%80%E5%90%8DAI+Agent%E5%AE%9E%E8%B7%B5%E8%80%85" alt="动态标题" />
 
 **把 AI 工具链变成稳定的学习、研究与项目交付系统**
 
