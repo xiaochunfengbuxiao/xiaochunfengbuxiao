@@ -1,21 +1,38 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=760&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E7%AC%91%E6%98%A5%E9%A3%8E;%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A0%94%E7%A9%B6%E7%94%9F;AI+Agent+%E4%B8%8E%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E8%80%85;%E5%8F%8C%E5%90%91%E6%89%8B%E8%AF%AD%E6%97%A0%E9%9A%9C%E7%A2%8D%E5%8E%9F%E5%9E%8B%E5%AE%9E%E8%B7%B5" alt="动态标题" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=760&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E7%AC%91%E6%98%A5%E9%A3%8E;%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A0%94%E7%A9%B6%E7%94%9F;AI+Agent+%E4%B8%8E%E7%9F%A5%E8%AF%86%E5%BA%93%E5%B7%A5%E7%A8%8B%E5%8C%96;%E5%8F%8C%E5%90%91%E6%89%8B%E8%AF%AD%E6%97%A0%E9%9A%9C%E7%A2%8D%E5%8E%9F%E5%9E%8B%E5%AE%9E%E8%B7%B5" alt="动态标题" />
 
-**AI Agent / 个人知识库 / 手语无障碍原型 / 行业研究自动化**
+**把 AI 工具链变成稳定的学习、研究与项目交付系统**
+
+![AI Agent](https://img.shields.io/badge/AI_Agent-%E5%B7%A5%E4%BD%9C%E6%B5%81-2563EB?style=flat-square)
+![Knowledge Base](https://img.shields.io/badge/Obsidian-%E7%9F%A5%E8%AF%86%E5%BA%93-7C3AED?style=flat-square)
+![Sign Language](https://img.shields.io/badge/%E6%89%8B%E8%AF%AD-%E5%8F%8C%E5%90%91%E9%97%AD%E7%8E%AF-0F766E?style=flat-square)
+![Research](https://img.shields.io/badge/%E7%A0%94%E6%8A%A5-%E8%87%AA%E5%8A%A8%E5%8C%96-B45309?style=flat-square)
 
 </div>
 
 ---
 
-## 关于我
+## 当前定位
 
-我是一名计算机研究生，最近主要在做本地知识库工程化、AI Agent 工作流、研究自动化，以及面向真实交互场景的手语无障碍原型。
+我是一名计算机研究生，最近的工作不是单纯“用 AI 写代码”，而是把 AI Agent、Obsidian 知识库、研究资料和项目交付流程串成一套可复用的个人工程系统。
 
-- 当前主线：**个人知识库工程化**、**双向手语无障碍沟通系统**、**AI Agent 自动化工作流**
-- 最近交付：PySide6 桌面 GUI、手语视频检索与识别链路、两次研究生组会 PPT、个人知识库 GitHub 同步治理
-- 长期方向：让 AI 工具更可靠地服务学习、研究、项目交付和辅助交互
-- 欢迎交流：AI Agent、Obsidian 知识库、RAG 系统、手语识别原型、自动化行业研究
+<table>
+  <tr>
+    <td width="33%">
+      <b>知识库工程化</b><br />
+      学习笔记、市场调研、项目代码、研究生组会材料统一归档，并用规则文件约束 Agent 执行流程。
+    </td>
+    <td width="33%">
+      <b>手语无障碍原型</b><br />
+      围绕“中文/语音 ↔ 手语视频/识别”做双向闭环，近期重点完成桌面端 GUI 与组会汇报。
+    </td>
+    <td width="33%">
+      <b>研究自动化</b><br />
+      把多源数据采集、行业横向对比、10 章报告、HTML/PDF 输出沉淀成流水线。
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -38,7 +55,7 @@
 
 ## 代表项目
 
-| 项目 | 我做了什么 | 技术栈 |
+| 项目 | 最近做了什么 | 技术栈 |
 | --- | --- | --- |
 | **xcf-personal-knowledge-base** | 搭建 Obsidian 个人知识库工程：学习笔记、市场调研、项目代码、研究生组会材料统一归档；为 Claude Code / Codex 编写多层 Agent 规范，并完成根目录说明、忽略规则和 GitHub 同步治理。 | Markdown · Obsidian · Git · Claude Code · Codex |
 | **sign-language-accessibility-system** | 构建双向实时手语无障碍沟通原型：中文/语音输入 -> 真人手语视频与骨架展示；手语视频 -> 中文识别与 TTS。近期重点完成 PySide6 桌面 GUI、服务层适配、异步 Worker 和组会汇报材料。 | Python · PySide6 · OpenCV · MediaPipe · PyTorch |
@@ -47,6 +64,22 @@
 | **Agent-Rag-project** | 探索多 Agent 协作、工具编排和向量检索结合的 RAG 工作流。 | Python · LangChain · Agent |
 
 > 主知识库为私有仓库，这里只展示项目级概览。
+
+---
+
+## 我的工作流
+
+```mermaid
+flowchart LR
+    A[资料与项目输入] --> B[AI Agent 处理]
+    B --> C[结构化笔记]
+    B --> D[项目代码与 GUI]
+    B --> E[报告 / PPT / HTML]
+    C --> F[Obsidian 知识库]
+    D --> F
+    E --> F
+    F --> G[GitHub 同步与归档]
+```
 
 ---
 
@@ -79,19 +112,21 @@
 
 ## 学习地图
 
-```text
-AI Agent 工作流      ██████████████████░  90%
-知识库系统           ██████████████████░  90%
-RAG / LangChain      █████████████████░░  85%
-手语无障碍原型       ████████████████░░░  80%
-前端 / GUI 设计      ██████████████░░░░░  70%
-金融与行业研究       ████████████░░░░░░░  60%
-```
+| 方向 | 当前状态 |
+| --- | --- |
+| AI Agent 工作流 | ██████████████████░ 90% |
+| 知识库系统 | ██████████████████░ 90% |
+| RAG / LangChain | █████████████████░░ 85% |
+| 手语无障碍原型 | ████████████████░░░ 80% |
+| 前端 / GUI 设计 | ██████████████░░░░░ 70% |
+| 金融与行业研究 | ████████████░░░░░░░ 60% |
 
 ---
 
 <div align="center">
 
 ![访问量](https://komarev.com/ghpvc/?username=xiaochunfengbuxiao&color=2563EB&style=flat-square)
+
+**持续把学习、研究和工程实践沉淀成可复用系统。**
 
 </div>
