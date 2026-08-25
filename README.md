@@ -7,7 +7,8 @@
 ![AI Agent](https://img.shields.io/badge/AI_Agent-%E5%B7%A5%E4%BD%9C%E6%B5%81-2563EB?style=flat-square)
 ![Knowledge Base](https://img.shields.io/badge/Obsidian-%E7%9F%A5%E8%AF%86%E5%BA%93-7C3AED?style=flat-square)
 ![Sign Language](https://img.shields.io/badge/%E6%89%8B%E8%AF%AD-%E5%8F%8C%E5%90%91%E9%97%AD%E7%8E%AF-0F766E?style=flat-square)
-![Research](https://img.shields.io/badge/%E7%A0%94%E6%8A%A5-%E8%87%AA%E5%8A%A8%E5%8C%96-B45309?style=flat-square)
+![Engineering](https://img.shields.io/badge/%E5%B7%A5%E7%A8%8B%E5%8C%96-%E5%8F%AF%E9%AA%8C%E8%AF%81-B45309?style=flat-square)
+![Cloud Automation](https://img.shields.io/badge/%E7%BD%91%E7%9B%98-%E8%87%AA%E5%8A%A8%E5%8C%96-0F766E?style=flat-square)
 
 </div>
 
@@ -21,15 +22,15 @@
   <tr>
     <td width="33%">
       <b>知识库工程化</b><br />
-      学习笔记、研究资料、项目代码和交付材料统一归档，并用规则文件约束 Agent 执行流程。
+      学习笔记、研究资料、项目代码和交付材料统一归档；近期将 24 个月计划拆成知识点、练习与验收证据。
     </td>
     <td width="33%">
       <b>手语无障碍原型</b><br />
-      围绕“中文/语音 ↔ 手语视频/识别”做双向闭环，近期重点完成桌面端 GUI 与阶段性汇报。
+      围绕“中文/语音 ↔ 手语视频/识别”做双向闭环，持续验证 GPU 部署、WebSocket 流式输出、ASR 与人工确认。
     </td>
     <td width="33%">
-      <b>研究自动化</b><br />
-      把多源数据采集、行业横向对比、10 章报告、HTML/PDF 输出沉淀成流水线。
+      <b>AI 应用可靠性</b><br />
+      把增量索引、预传输去重、断点恢复、运行历史与更新报告纳入双网盘自动化系统的工程实践。
     </td>
   </tr>
 </table>
@@ -57,8 +58,9 @@
 
 | 项目 | 最近做了什么 | 技术栈 |
 | --- | --- | --- |
-| **xcf-personal-knowledge-base** | 搭建 Obsidian 个人知识库工程：学习笔记、研究资料、项目代码和交付材料统一归档；为 Claude Code / Codex 编写多层 Agent 规范，并完善版本管理、忽略规则和公开同步策略。 | Markdown · Obsidian · Git · Claude Code · Codex |
-| **sign-language-accessibility-system** | 构建双向实时手语无障碍沟通原型：中文/语音输入 -> 真人手语视频与骨架展示；手语视频 -> 中文识别与 TTS。近期重点完成 PySide6 桌面 GUI、服务层适配、异步 Worker 和汇报材料整理。 | Python · PySide6 · OpenCV · MediaPipe · PyTorch |
+| **xcf-personal-knowledge-base** | 搭建 Obsidian 个人知识库工程：统一归档学习、研究、代码与交付材料；近期完成 24 篇月度知识点行动卡、知识点地图和 Markdown 打卡入口，并持续完善 Agent 规范与公开同步边界。 | Markdown · Obsidian · Git · Claude Code · Codex |
+| **sign-language-accessibility-system** | 构建双向实时手语无障碍沟通原型：中文/语音输入 -> 真人手语视频与骨架展示；手语视频 -> 中文识别与 TTS。近期围绕 GPU Compose、FastAPI/WebSocket、流式 partial/final、ASR 和人工确认完成工程化验证。 | Python · PySide6 · FastAPI · OpenCV · MediaPipe · PyTorch |
+| **cloud-drive-auto-save** | 构建百度/夸克双网盘自动保存系统，围绕增量索引、自然编号去重、断点续跑、运行历史、WebUI 与报告链路做可靠性建设；近期补齐 V2 控制面、Provider lane、报告引用持久化与发布门禁。 | Python · Flask · Docker Compose · SQLite · WebUI |
 | **market-research-automation** | 搭建行业研究流水线：多源市场数据采集 -> 估值/财报/资金流/技术指标/风险定价输出 -> 10 章报告 -> HTML/PDF 发布产物。 | Python · yfinance · AkShare · Playwright |
 | **LangChain-RAG-FastAPI-Service** | 基于 LangChain + FastAPI 构建 RAG 知识库 API 服务，围绕向量检索和接口化知识查询做工程实践。 | Python · LangChain · FastAPI · Chroma |
 | **Agent-Rag-project** | 探索多 Agent 协作、工具编排和向量检索结合的 RAG 工作流。 | Python · LangChain · Agent |
@@ -71,19 +73,47 @@
 
 ```mermaid
 flowchart LR
-    A[资料与项目输入] --> B[AI Agent 辅助处理]
-    B --> C[结构化笔记]
-    B --> D[项目代码与 GUI]
-    B --> E[报告 / PPT / HTML]
-    C --> F[Obsidian 知识库]
-    D --> F
-    E --> F
-    F --> G[版本管理与归档]
+    accTitle: Personal Engineering Loop
+    accDescr: 资料、问题与项目输入经过 AI Agent 协作处理，沉淀为知识、应用和验收证据，再通过版本管理与复盘持续迭代。
+
+    input[资料、问题与项目输入] --> agent[AI Agent 协作处理]
+    agent --> notes[结构化知识与学习行动卡]
+    agent --> apps[项目代码与可演示应用]
+    agent --> evidence[测试、实验与验收证据]
+    notes --> system[个人知识库与作品集]
+    apps --> system
+    evidence --> system
+    system --> review[版本管理、复盘与持续迭代]
+    review --> input
 ```
 
 ---
 
-## 最近交付
+## 最近进展
+
+### 2026.08 - 手语无障碍原型的工程化验证
+
+- 在当前发布版中完成一轮本地 GPU Compose 运行链路验证，覆盖 CUDA、FastAPI、ASR、页面状态和 `/ws/sign` 流式识别；演示样例按 212 帧处理，并保留 partial/final 与人工确认边界。
+- 持续收敛实时输出、流末补帧、首字响应和最终结果一致性，让“能演示”逐步变成“可解释、可复现、可验收”。
+- 将实验记录与质量门禁材料整理成可追溯证据，并继续补齐稳定前缀/动态分块的流式证据链；当前定位仍是竞赛展示与试点前的工程原型，不把演示结果包装成客户效果。
+
+### 2026.08 - AI 应用工程化与可靠性建设
+
+- 将百度与夸克自动保存能力按统一 Compose/WebUI、配置、运行历史和报告链路组织起来，围绕增量索引、自然编号去重与断点续跑持续完善。
+- 把回滚点、失败恢复、状态可观测性和“测试通过不等于生产完成”的验收边界纳入工程流程，作为后续 AI 应用与 Agent 系统学习的实践锚点。
+- 当前项目处于受控停机和持续验收阶段，仍需补齐真实运行中的异常恢复与全链路生产证据。
+
+### 2026.08 - 网盘自动化 V2 运行时回归
+
+- 在与旧生产树隔离的 V2 环境中完成 final58 回归：Python 测试 `281 passed, 2 skipped`，并通过前端单元测试、浏览器测试、构建和 Compose 静态配置检查。
+- 将 Provider lane、shadow/canary 门禁、checkpoint/observation 事实和报告 outbox 纳入可追溯运行链路；报告外部 `delivery_ref` 已通过 0015 migration 持久化，重启后仍可读取。
+- 保持证据边界：本轮未调用真实 Provider、未写入真实网盘、未发送真实报告；真实 canary、恰好一次投递、七天观察和可回滚切换仍待授权。
+
+### 2026.08 - 24 个月学习与作品集系统
+
+- 将 24 篇月度行动卡扩展为可直接学习的知识文档：每篇包含基础概念、四周任务、独立练习、验收证据、风险和复盘。
+- 增加总计划知识点地图、24 条 Markdown 打卡项以及 2x 高清 HTML/PNG 知识点图表，把长期学习计划连接到具体项目和可复现证据。
+- 明确作品集叙事的最低标准：说明问题、实现机制、验证方法、失败边界和个人贡献，而不只罗列项目链接。
 
 ### 2026.07 - 双向手语无障碍沟通系统 GUI
 
@@ -108,16 +138,16 @@ flowchart LR
 
 ---
 
-## 学习地图
+## 当前重点
 
 | 方向 | 当前状态 |
 | --- | --- |
-| AI Agent 工作流 | ██████████████████░ 90% |
-| 知识库系统 | ██████████████████░ 90% |
-| RAG / LangChain | █████████████████░░ 85% |
-| 手语无障碍原型 | ████████████████░░░ 80% |
-| 前端 / GUI 设计 | ██████████████░░░░░ 70% |
-| 金融与行业研究 | ████████████░░░░░░░ 60% |
+| AI Agent / 工程化 | 工具、状态、验证、边界与安全停止 |
+| 知识库 / 学习系统 | 24 个月计划、24 篇行动卡与作品集证据 |
+| 手语无障碍原型 | 双向实时链路、GPU 部署与流式识别 |
+| 网盘自动化 | V2 控制面、Provider lane、去重、断点恢复与报告门禁 |
+| RAG / LangChain | 本地服务、向量检索与 Agent 工作流 |
+| 研究自动化 | 多源数据、行业对比与 HTML/PDF 报告 |
 
 ---
 
@@ -125,6 +155,6 @@ flowchart LR
 
 ![访问量](https://komarev.com/ghpvc/?username=xiaochunfengbuxiao&color=2563EB&style=flat-square)
 
-**持续把学习、研究和工程实践沉淀成可复用系统。**
+**持续把学习、研究和工程实践沉淀成可复用、可验证的系统。**
 
 </div>
